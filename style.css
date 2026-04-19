@@ -257,6 +257,32 @@ width :100%
   margin-bottom: 10px;
 }
 
+ thead{
+  background: gray;
+}
+
+.t-div {
+ border: 2px;
+ border-color: black;
+ 
+}
+
+table {
+  border:lightblue ;
+}
+tr {
+  display: flex;
+  gap: 28px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: right;
+}
+
 @media (min-width: 800px) {
   .f-2 {
     width: 30%;
